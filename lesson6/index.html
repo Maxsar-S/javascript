@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Урок #6</title>
+
+    <script src="script.js" defer></script>
+    <style>
+        .good {
+            border: 1px solid #000;
+            margin-bottom: 5px;
+            background: darkcyan;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: lightsalmon;
+        }
+
+        .basket {
+            background: lightgreen;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: red;
+        }
+
+        .textname {
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .catalog {
+            display: flex;
+            justify-content: space-around;
+            height: 270px;
+        }
+
+        .macbook {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .mouse {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .keyboard {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="textname">Каталог
+    </h1>
+    <div class="catalog">
+
+        <div class="macbook">
+            <img src="img/macbook1.jfif" alt="Ноутбук">
+            <button class="buy-btn1">Купить</button>
+        </div>
+        <div class="mouse">
+            <img src="img/mouse1.jfif" alt="Мышь">
+            <button class="buy-btn2">Купить</button>
+        </div>
+        <div class="keyboard">
+            <img src="img/keyboard1.jfif" alt="Клавиатура">
+            <button class="buy-btn3">Купить</button>
+        </div>
+    </div>
+    <hr>
+    <div class="basket">
+        <h1>Ваша корзина
+        </h1>
+        <div class="cart-list"></div>
+        <button class="cart-btn">Очистить корзину</button>
+    </div>
+</body>
+
+</html>
