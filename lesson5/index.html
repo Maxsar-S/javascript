@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Урок #5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container" style="padding: 20px 30px;">
+        <div id='chess'>
+            <div>
+                <h1>Урок #5</h1>
+                <p>Функция, генерирующая шахматную доску</p>
+            </div>
+            <div>
+                <button type="button" onclick="generateChessDesk();">Сгенерировать шахматную
+                    доску</button>
+
+            </div>
+        </div>
+        <div id='basket_div'>
+            <div>
+                <p>Функция, подсчета корзины</p>
+            </div>
+            <div>
+                <button type="button" onclick="add_product('pen', 1);">добавить ручку</button>
+                <button type="button" onclick="add_product('paper', 1);">добавить бумагу</button>
+                <button type="button" onclick="add_product('file', 1);">добавить файл</button>
+                <button type="button" onclick="add_product('pencil', 1);">добавить карандаш</button>
+                <button type="button" onclick="general_price(basket);">посчитать стоимость корзины</button>
+                <button type="button" onclick="clear_basket(basket);">очистить корзину</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
